@@ -45,11 +45,11 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 
 ### 1. Clone the repository
 
-'''
+```
 git clone
 https://github.com/nikolaakrap/tello_gesture_control.git
 cd tello_gesture_control
-'''
+```
 
 ------------------------------------------------------------------------
 
@@ -57,26 +57,26 @@ cd tello_gesture_control
 
 **macOS / Linux:**
 
-'''
+```
 python3 -m venv venv
 source venv/bin/activate
-'''
+```
 
 **Windows:**
 
-'''
+```
 python -m venv venv
 venv\Scripts\activate
-'''
+```
 
 ------------------------------------------------------------------------
 
 ### 3. Install dependencies
 
-'''
+```
 pip install --upgrade pip
 pip install -r requirements.txt
-'''
+```
 
 ------------------------------------------------------------------------
 
@@ -84,54 +84,54 @@ pip install -r requirements.txt
 
 ### Step 1 -- Data Collection
 
-'''
+```
 python src/01_data_collection.py
-'''
+```
 
 ### Step 2 -- Data Normalization
 
-'''
+```
 python src/02_data_normalization.py
-'''
+```
 
 ### Step 3 -- Train HMM Models
 
-'''
+```
 python src/03_train_hmm.py
-'''
+```
 
 ### Step 4 -- Evaluate Model Performance
 
-'''
+```
 python src/06_model_evaluation.py
-'''
+```
 
 ### Step 5 -- Real-Time Gesture Testing
 
-'''
+```
 python src/04_realtime_test.py
-'''
+```
 
 ### Step 6 -- Real-Time Drone Control
 
-'''
+```
 python src/05_drone_control.py
-'''
+```
 
 Make sure the drone is powered on and you are connected to its Wi-Fi
 network.
 
 ### Step 7 -- Latency Measurement
 
-'''
+```
 python src/07_latency_test.py
-'''
+```
 
 ### Step 8 -- Latency Analysis
 
-'''
+```
 python src/08_latency_analysis.py
-'''
+```
 
 ------------------------------------------------------------------------
 
