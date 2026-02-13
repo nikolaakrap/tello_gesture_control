@@ -1,0 +1,9 @@
+back
+down
+forward
+land
+left
+noise
+right
+takeoff
+up
