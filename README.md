@@ -51,7 +51,7 @@ The following gestures are mapped to drone commands:
 | Open palm | Move backward |
 | Index finger up | Move left |
 | Pinky up | Move right |
-| Horns (index + pinky) | Move up |
+| Horns | Move up |
 | Horns + thumb | Move down |
 | Thumbs up | Takeoff |
 | Thumbs down | Land |
