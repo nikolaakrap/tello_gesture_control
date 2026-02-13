@@ -41,6 +41,23 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 
 ------------------------------------------------------------------------
 
+## Gesture Mapping
+
+The following gestures are mapped to drone commands:
+
+| Gesture | Drone Action |
+|----------|--------------|
+| Closed fist | Move forward |
+| Open palm | Move backward |
+| Index finger up | Move left |
+| Pinky up | Move right |
+| Horns (index + pinky) | Move up |
+| Horns + thumb | Move down |
+| Thumbs up | Takeoff |
+| Thumbs down | Land |
+
+------------------------------------------------------------------------
+
 ## Installation & Setup
 
 ### 1. Clone the repository
