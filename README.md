@@ -1,7 +1,7 @@
 # Gesture-Based Real-Time Drone Control using HMM
 
 This project implements a real-time gesture-based control system for a
-DJI Tello drone using a camera and Hidden Markov Models (HMM).\
+DJI Tello drone using a camera and Hidden Markov Models (HMM).
 The system detects hand landmarks using MediaPipe, classifies gestures
 using Gaussian HMMs, and sends control commands to the drone via UDP.
 
@@ -46,8 +46,7 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 ### 1. Clone the repository
 
 ```
-git clone
-https://github.com/nikolaakrap/tello_gesture_control.git
+git clone https://github.com/nikolaakrap/tello_gesture_control.git
 cd tello_gesture_control
 ```
 
@@ -137,26 +136,26 @@ python src/08_latency_analysis.py
 
 ## Evaluation Metrics
 
--   Accuracy\
--   Macro F1-score\
--   False Positive Rate (noise class)\
+-   Accuracy
+-   Macro F1-score
+-   False Positive Rate (noise class)
 -   End-to-end latency
 
 ------------------------------------------------------------------------
 
 ## Model Details
 
--   Gaussian Hidden Markov Models (4 hidden states per gesture)\
--   One model per gesture (generative classification approach)\
--   Sliding window for temporal consistency\
+-   Gaussian Hidden Markov Models (4 hidden states per gesture)
+-   One model per gesture (generative classification approach)
+-   Sliding window for temporal consistency
 -   Fixed random seed for reproducibility
 
 ------------------------------------------------------------------------
 
 ## Notes
 
--   The evaluation script performs its own train/test split.\
+-   The evaluation script performs its own train/test split.
 -   Real-time performance depends on camera frame rate and system
-    performance.\
+    performance.
 -   Drone command frequency (\~20 Hz) contributes to total system
     latency.
