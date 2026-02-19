@@ -19,6 +19,11 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 
 ------------------------------------------------------------------------
 
+https://github.com/user-attachments/assets/3bbe3344-7a22-48c5-80a8-d996b98a4c53
+
+------------------------------------------------------------------------
+
+
 ## Project Structure
 
     data/
