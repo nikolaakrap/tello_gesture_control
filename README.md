@@ -7,6 +7,10 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 
 ------------------------------------------------------------------------
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UrA2JF90PYY?si=rW5sM50MLe9TJK40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+------------------------------------------------------------------------
+
 ## Features
 
 -   Real-time hand landmark detection (MediaPipe)
@@ -16,10 +20,6 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 -   Real-time DJI Tello drone control
 -   Latency measurement and evaluation
 -   Confusion matrix visualization and performance metrics
-
-------------------------------------------------------------------------
-
-https://github.com/user-attachments/assets/3bbe3344-7a22-48c5-80a8-d996b98a4c53
 
 ------------------------------------------------------------------------
 
