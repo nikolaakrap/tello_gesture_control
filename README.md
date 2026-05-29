@@ -7,8 +7,9 @@ using Gaussian HMMs, and sends control commands to the drone via UDP.
 
 ------------------------------------------------------------------------
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UrA2JF90PYY?si=rW5sM50MLe9TJK40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<div align="center">
+  <a href="https://youtu.be/UrA2JF90PYY"><img src="https://youtu.be/UrA2JF90PYY" alt="drone_control"></a>
+</div>
 ------------------------------------------------------------------------
 
 ## Features
